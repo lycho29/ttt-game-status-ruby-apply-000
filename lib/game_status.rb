@@ -28,5 +28,4 @@ end
 
 def full?(board)
   board.all?{|filled| occupied != " "}
-  
 end
