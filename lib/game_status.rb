@@ -27,5 +27,6 @@ def won?(board)
 end
 
 def full?(board)
-  board.all?{|filled| 
+  board.all?{|filled| occupied != " "}
+  
 end
