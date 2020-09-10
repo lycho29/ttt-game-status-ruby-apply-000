@@ -30,6 +30,5 @@ def full?(board)
   board.all?{|occupied| occupied != " "}
 end
 
-LOOSE_COMBINATIONS = [
-  []
-  ]
+def draw?(board)
+  board
