@@ -27,6 +27,5 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? do |space|
-    space.
+  board.all? 
 end
