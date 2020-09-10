@@ -41,3 +41,11 @@ def over?(board)
     return false
   end
 end
+
+def winner(board)
+  if won?(board) == "X" || won?(board) == "O"
+    return true
+  else
+    puts "no winner"
+  end
+end
