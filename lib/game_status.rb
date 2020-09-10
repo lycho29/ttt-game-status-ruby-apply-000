@@ -51,4 +51,3 @@ def winner(board)
   else
     puts "no winner"
   end
-end
